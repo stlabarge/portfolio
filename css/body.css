@@ -1,8 +1,38 @@
 body {
-    background-color: #fdf0c2;
+    background-color: #1b1a13;
+    font-family: sans-serif
 }
 
-#hello{ 
+.container{
+    color: rgb(253, 243, 184);
 
 }
 
+.card{
+    background-color:  rgba(253, 247, 211, 0.582);
+
+}
+
+.card-title{
+    color:black;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.btn{
+    color:  rgb(247, 221, 78);
+    background-color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.pTitle {
+    text-align: center;
+}
+
+div.col{
+    margin-left: 4em;
+}
+
+h1 {
+    color: rgb(247, 221, 78);
+    font-family: Georgia, 'Times New Roman', Times, serif
+}

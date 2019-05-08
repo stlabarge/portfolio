@@ -1,7 +1,23 @@
-#contact {
+.contact {
     color: #d5b443;
-    background: var(--black);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+label {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+input{
+    background-color: rgba(253, 247, 211, 0.582);
+}
+
+#contact{
+    background-color: black;
 }
 button {
+    color: #d5b443;
+}
+footer{
     color: #d5b443;
 }

@@ -1,7 +1,7 @@
 .jumbotron {
     background: url('../assets/img/jumbotronpic.jpg') center bottom;
     background-size: cover;
-    height: 100vh;
+    height: 40vh;
     color: white;
 
 }

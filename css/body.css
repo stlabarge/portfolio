@@ -1,15 +1,25 @@
 body {
-    background-color: #1b1a13;
+    background-color: black;
     font-family: sans-serif
 }
 
-.container{
-    color: rgb(253, 243, 184);
+.bio {
+    padding: 20px;
+    color: rgb(146, 146, 146);
+}
 
+.container{
+    color:white;
+    text-align: center
+}
+
+.row {
+    text-align: center;
 }
 
 .card{
-    background-color:  rgba(253, 247, 211, 0.582);
+    background-color:   rgb(146, 146, 146);
+    margin: 20px;
 
 }
 
@@ -19,8 +29,9 @@ body {
 }
 
 .btn{
-    color:  rgb(247, 221, 78);
-    background-color: black;
+    color: white;
+    background-color:black;
+    outline-color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -30,9 +41,22 @@ body {
 
 div.col{
     margin-left: 4em;
+    display: inline-block;
+}
+
+h2 {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 h1 {
-    color: rgb(247, 221, 78);
-    font-family: Georgia, 'Times New Roman', Times, serif
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
 }
+
+p {
+    padding: 20px;
+    color:black;
+}
+

@@ -1,7 +1,12 @@
 .jumbotron {
-    background: url('../assets/img/jumbotronpic.jpg') center bottom;
+    background: url('../assets/img/darkBanner.jpg') center bottom;
     background-size: cover;
-    height: 40vh;
+    height: 43vh;
     color: white;
+    text-align: center;
 
+}
+
+.logo {
+    display: inline-block;
 }

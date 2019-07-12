@@ -1,22 +1,39 @@
-.navbar-expand-lg {
+.nav  {
     font-family: var(--font-four);
     font-size: 13px;
     text-decoration-color: (--yellow);
-    background-color:rgb(0, 0, 0);
-    
+    background-color: black;
+    color: white;
     font-family: Georgia, 'Times New Roman', Times, serif
     
+}
+
+nav.nav {
+    background-color: black;
 }
 
 a.nav-item.nav-link {
-    color: rgb(247, 221, 78);
-    
+    color:white;
     font-family: Georgia, 'Times New Roman', Times, serif
 
 }
 
+button.navbar-toggler {
+    color:  white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+span.navbar-toggler-icon {
+    color:  white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* navbar-toggler-icon {
+    color: white;
+} */
+
 h4{
     color:rgb(250, 244, 244);
-    
+
     font-family: Georgia, 'Times New Roman', Times, serif
 }

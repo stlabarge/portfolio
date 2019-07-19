@@ -16,17 +16,17 @@ body {
     display: flex;
     flex-wrap: wrap;
     padding: 0 4px;
-    margin:20px;
+    margin:80px;
   }
 
   .doodles {
     flex: 25%;
     max-width: 25%;
-    padding: 0 4px;
+    padding: 0 10px;
   }
 
   .doodles img {
-    margin-top: 8px;
+    margin-top: 15px;
     vertical-align: middle;
     width: 100%;
   }

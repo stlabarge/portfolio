@@ -3,6 +3,49 @@ body {
     font-family: sans-serif
 }
 
+.skull{
+    
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      
+}
+
+
+.visuals {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    margin:20px;
+  }
+
+  .doodles {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+
+  .doodles img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+
+@media screen and (max-width: 800px) {
+    .doodles {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+
+
+  .pTitle {
+    text-align: center;
+}
+
+
 .bio {
     padding: 20px;
     color: rgb(146, 146, 146);
@@ -18,26 +61,28 @@ body {
 }
 
 .card{
-    background-color:   rgb(146, 146, 146);
+    /* background-color:   rgb(146, 146, 146); */
+    background: url('../assets/img/darkBanner.jpg') center top;
+    opacity: 4;
     margin: 20px;
 
 }
 
 .card-title{
-    color:black;
+    color:white;
     font-family: Georgia, 'Times New Roman', Times, serif
 }
 
-.btn{
+a.btn{
     color: white;
     background-color:black;
     outline-color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.pTitle {
-    text-align: center;
-}
 
 div.col{
     margin-left: 4em;
@@ -57,6 +102,6 @@ h1 {
 
 p {
     padding: 20px;
-    color:black;
+    color:white;
 }
 

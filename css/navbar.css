@@ -1,39 +1,74 @@
-.nav  {
-    font-family: var(--font-four);
-    font-size: 13px;
-    text-decoration-color: (--yellow);
-    background-color: black;
-    color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif
-    
+#v-pills-tab {
+    position: fixed;
 }
 
-nav.nav {
-    background-color: black;
+a#v-pills-home-tab.nav-link{
+    background-color: #f1f1f1;
+    color: black;
+    text-emphasis: hover;
+    font-family: monospace;
 }
 
-a.nav-item.nav-link {
-    color:white;
-    font-family: Georgia, 'Times New Roman', Times, serif
+a#v-pills-home-tab.nav-link:hover{
+    color:grey;
 
 }
 
-button.navbar-toggler {
-    color:  white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+a#v-pills-design-tab.nav-link{
+    background-color: #f1f1f1;
+    color: black;
+    text-emphasis: hover;
+    font-family: monospace;
 }
 
-span.navbar-toggler-icon {
-    color:  white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+a#v-pills-design-tab.nav-link:hover{
+    color:grey;
 }
 
-/* navbar-toggler-icon {
-    color: white;
-} */
+a#v-pills-projects-tab.nav-link{
+    background-color: #f1f1f1;
+    color: black;
+    text-emphasis: hover;
+    font-family: monospace;
+}
 
-h4{
-    color:rgb(250, 244, 244);
+a#v-pills-projects-tab.nav-link:hover{
+    color:grey;
+}
 
-    font-family: Georgia, 'Times New Roman', Times, serif
+a#v-pills-art-tab.nav-link{
+    background-color: #f1f1f1;
+    color: black;
+    font-family: monospace;
+}
+
+
+
+a#v-pills-dart-tab.nav-link{
+    background-color: #f1f1f1;
+    color: black;
+    text-emphasis: hover;
+    font-family: monospace;
+}
+
+a#v-pills-dart-tab.nav-link:hover{
+    color:grey;
+}
+
+
+a#v-pills-tart-tab.nav-link{
+    background-color: #f1f1f1;
+    color: black;
+    text-emphasis: hover;
+    font-family: monospace;
+}
+
+a#v-pills-tart-tab.nav-link:hover{
+    color:grey;
+}
+
+
+h6 {
+    font-family: monospace;
+    text-align: center;
 }

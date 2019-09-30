@@ -42,7 +42,7 @@ img#me {
   /* Center website */
   .main {
     max-width: 1000px;
-    margin: auto;
+    /* margin: auto; */
   }
 
   
